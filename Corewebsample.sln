@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Corewebsample", "Corewebsample\Corewebsample.csproj", "{0B266BF3-A17C-4D2B-8C8D-1BAF8976F058}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corewebsample.Test", "Corewebsample.Test\Corewebsample.Test.csproj", "{FA74A698-6F8B-4060-8EF3-6DA9C25D4D89}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corewebsample.xunitTest", "Corewebsample.xunitTest\Corewebsample.xunitTest.csproj", "{4A1E3086-602D-47B1-A598-65329713270C}"
 EndProject
 Global
@@ -19,10 +17,6 @@ Global
 		{0B266BF3-A17C-4D2B-8C8D-1BAF8976F058}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B266BF3-A17C-4D2B-8C8D-1BAF8976F058}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B266BF3-A17C-4D2B-8C8D-1BAF8976F058}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FA74A698-6F8B-4060-8EF3-6DA9C25D4D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA74A698-6F8B-4060-8EF3-6DA9C25D4D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA74A698-6F8B-4060-8EF3-6DA9C25D4D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA74A698-6F8B-4060-8EF3-6DA9C25D4D89}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4A1E3086-602D-47B1-A598-65329713270C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4A1E3086-602D-47B1-A598-65329713270C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A1E3086-602D-47B1-A598-65329713270C}.Release|Any CPU.ActiveCfg = Release|Any CPU
