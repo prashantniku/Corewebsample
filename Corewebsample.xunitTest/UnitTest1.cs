@@ -19,5 +19,17 @@ namespace Corewebsample.xunitTest
             // Assert
             Assert.NotNull(result);
         }
+        [Fact]
+        public void Privacy()
+        {
+            // Arrange
+            HomeController controller = new HomeController();
+
+            // Act
+            ViewResult result = controller.Privacy() as ViewResult;
+
+            // Assert
+            Assert.NotNull(result);
+        }
     }
 }
