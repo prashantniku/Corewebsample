@@ -5,7 +5,7 @@ using Xunit;
 
 namespace Corewebsample.Test
 {
-    public class Class1
+    public class HomeTest
     {
         [Fact]
         public void Index1()
@@ -19,5 +19,18 @@ namespace Corewebsample.Test
             // Assert
             Assert.NotNull(result);
         }
+        [Fact]
+        public void Privacy()
+        {
+            // Arrange
+            HomeController controller = new HomeController();
+
+            // Act
+            ViewResult result = controller.Privacy() as ViewResult;
+
+            // Assert
+            Assert.NotNull(result);
+        }
     }
 }
+
